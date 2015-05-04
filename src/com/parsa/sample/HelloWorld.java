@@ -13,11 +13,12 @@ public class HelloWorld {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String name = "lohitakshay parsa";
+		String name = "lohitakshay";
 		System.out.println("hello " + name);
 		Dog d1=new Dog();
 		Bicycle b=new Bicycle();
 		Bike b1=new Bike();
+		Car c=new Car();
 		d1.setColor("black");
 		d1.setBreed("breed");
 		d1.setName("ramu");
@@ -25,6 +26,8 @@ public class HelloWorld {
 		b.setSpeed(16);
 		b1.applyBreak(1);
 		b1.changeGear(3);
+		c.applyBreak(5);
+		c.changeGear(6);
 		
 		System.out.println(d1);
 		System.out.println(d1.getColor());
