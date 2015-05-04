@@ -13,7 +13,7 @@ public class HelloWorld {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String name = "lohitakshay";
+		String name = "lohitakshay parsa";
 		System.out.println("hello " + name);
 		Dog d1=new Dog();
 		Bicycle b=new Bicycle();
