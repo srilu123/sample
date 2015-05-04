@@ -15,6 +15,15 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		String name = "lohitakshay";
 		System.out.println("hello " + name);
+		
+		
+		FactorialDemo f=new FactorialDemo();
+		f.getFactorial(5);
+		
+		System.out.println("the factorial of given no:"+f.getFactorial(0));
+		
+		
+		
 		Dog d1=new Dog();
 		Bicycle b=new Bicycle();
 		Bike b1=new Bike();
